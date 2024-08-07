@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="D20Tek.Minimal.Result" Version="1.0.2" />
+    <PackageReference Include="LowDb.Net" Version="1.0.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+		<_Parameter1>$(AssemblyName).UnitTests</_Parameter1>
+		<!-- We use the value of AssemblyName to declare the value of the attribute -->
+	</AssemblyAttribute>
+	<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+		<_Parameter1>HabitTracker.Cli.UnitTests</_Parameter1>
+	</AssemblyAttribute>
+  </ItemGroup>
+
+</Project>
