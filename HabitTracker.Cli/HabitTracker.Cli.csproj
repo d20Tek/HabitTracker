@@ -5,6 +5,19 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Habit Tracker Cli</Title>
+    <Company>d20Tek</Company>
+    <Authors>DarthPedro</Authors>
+    <Copyright>Copyright (c) d20Tek.  All rights reserved.</Copyright>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>HabitTracker</ToolCommandName>
+    <Description>A habit tracking application that can be used to ensure that you are building and improving your healthy habits.
+A command-line application that let's you work from your favority terminal.</Description>
+    <PackageProjectUrl>https://github.com/d20Tek/HabitTracker</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/d20Tek/HabitTracker</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tracker; habits; habit tracker</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
